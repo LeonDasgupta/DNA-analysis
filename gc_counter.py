@@ -1,4 +1,4 @@
-rom Bio.Seq import Seq
+from Bio.Seq import Seq
 
 def gc_counter(dna):
     x = dna.count("G") + dna.count("C")
